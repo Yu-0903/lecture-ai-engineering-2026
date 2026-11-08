@@ -18,7 +18,7 @@
     "transformers": "5.18.0",
     "peft": "0.21.1",
     "trl": "1.14.2",
-    "torch": "2.11.0+cu130"
+    "torch": "2.14.1+cu130"
   },
   "method": "LoRA（量子化なし）",
   "before": {
@@ -27,7 +27,7 @@
     "format_rate": 0.09523809523809523,
     "content_rate": 0.0,
     "both_rate": 0.0,
-    "seconds": 58.9
+    "seconds": 52.0
   },
   "after": {
     "label": "after",
@@ -35,7 +35,7 @@
     "format_rate": 1.0,
     "content_rate": 0.9047619047619048,
     "both_rate": 0.9047619047619048,
-    "seconds": 42.0
+    "seconds": 43.2
   },
   "regressed": [],
   "knowledge": [
