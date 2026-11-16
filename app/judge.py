@@ -37,7 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CASES = ROOT / "data" / "eval" / "lec04_cases.jsonl"
 DEFAULT_RUBRIC = ROOT / "data" / "eval" / "rubric.md"
 DEFAULT_LABELS = ROOT / "lectures" / "04" / "labels.jsonl"
-DEFAULT_OUT = ROOT / "lectures" / "04" / "judge_result.json"
+DEFAULT_OUT = ROOT / "lectures" / "04" / "judge_result_モデル変更後.json"
 
 # LLM が判定する基準（キー, 表示名）
 LLM_CRITERIA = [("grounding", "根拠"), ("scope", "範囲"), ("hint", "ヒント"), ("clarity", "分かりやすさ")]
